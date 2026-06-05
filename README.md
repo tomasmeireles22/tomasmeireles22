@@ -4,7 +4,7 @@
 
 *Building intelligent systems and scalable data solutions*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/SEU_LINKEDIN](https://www.linkedin.com/in/tom%C3%A1s-meireles-71b31b404/?skipRedirect=true))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tomás-meireles-71b31b404/)
 
 </div>
 
