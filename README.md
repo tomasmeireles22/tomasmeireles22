@@ -32,7 +32,7 @@ I'm a Computer Science graduate passionate about applying machine learning to re
 
 **Databases & Backend**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
 **Tools & Workflow**
@@ -46,39 +46,30 @@ I'm a Computer Science graduate passionate about applying machine learning to re
 
 ## Featured Projects
 
-### 🔬 Automatic Classification of Fluoroscopic CPRE Images
-> Deep learning system for automatic classification of endoscopic retrograde cholangiopancreatography (CPRE) fluoroscopy images.
+### 🔬 [CPRE Fluoroscopy Classification](https://github.com/tomasmeireles22/AP-CPRE)
+> Automatic classification of fluoroscopic CPRE images using a Snapshot Ensemble of EfficientNet models.
 
-- **Approach:** Snapshot Ensemble of EfficientNet models (B5, B6, B7) with two-phase fine-tuning
-- **Techniques:** CLAHE preprocessing, Test-Time Augmentation (TTA), WeightedRandomSampler for class imbalance, Grad-CAM interpretability
-- **Results:** Strong F1-macro and AUC-ROC on a multi-class imbalanced dataset
-- **Stack:** Python · PyTorch · EfficientNet · OpenCV
-
----
-
-### 🏛️ OlympiaDB — Event Management Database
-> Full-cycle relational database system for managing sports event organizations.
-
-- **Scope:** Requirements analysis, ER/relational modeling, physical implementation
-- **Features:** Triggers, stored procedures, views, indexing strategies, and role-based user management
-- **Stack:** PostgreSQL · SQL · Database Theory
+- **Approach:** Snapshot Ensemble of EfficientNet (B5, B6, B7) with two-phase fine-tuning
+- **Techniques:** CLAHE preprocessing, TTA, WeightedRandomSampler, Grad-CAM interpretability
+- **Results:** **F1-macro 0.9012 · AUC-ROC 0.9804** on a 4-class imbalanced dataset (+0.16 vs baseline)
+- **Stack:** Python · PyTorch · timm · OpenCV · Kaggle (T4 GPU)
 
 ---
 
-## GitHub Stats
+### 🏋️ [FitApp — Fitness Management System](https://github.com/tomasmeireles22/POO)
+> Console-based application for managing users, workout plans, and activity tracking.
 
-<div align="center">
-
-![Ralph's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME&layout=compact&theme=github_dark&hide_border=true)
-
-</div>
+- **Architecture:** MVC pattern with 3 user types and 2 activity subtypes
+- **Concepts:** Inheritance, polymorphism, encapsulation, Java serialization
+- **Stack:** Java · OOP
 
 ---
 
-<div align="center">
+### 🗄️ [Database Systems](https://github.com/tomasmeireles22/Base-de-Dados)
+> Relational database project covering full design and implementation cycle.
 
-*Open to internship and research opportunities in ML/AI and data engineering.*
+- **Scope:** ER modeling, relational schema, SQL queries, triggers, and stored procedures
+- **Stack:** PostgreSQL · SQL
 
-</div>
+---
+
